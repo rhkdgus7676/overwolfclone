@@ -1,3 +1,79 @@
+
+*{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #b2adcc;
+  background: #161326;
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+}
+
+.nav_bar{
+  height: 64px;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_logo{
+  display: flex;
+  align-items: center;
+}
+
+.nav_menu{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.nav_menu a{
+  padding: 19px 0;
+}
+
+.nav_menu a:hover{
+  color: #f4f2ff;
+  
+}
+
+.nav_menu li{
+  padding: 0 18px;
+}
+
+.download_btn{
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.download_btn a{
+  padding: 6px 13px ;
+  outline: solid thin;
+}
+
+.download_btn a:hover{
+  background: #797399;
+}
+
+.social_icons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social_icons a{
+  padding: 5px;
+}
+
 .footerimg{
   text-align: center;
 }
@@ -278,12 +354,3 @@
   z-index: 0;
 }
 
-.nav_bar, .nav_bar a{
-  background-color: rgba(22,19,38,.9);
-  color: #b3adcc;
-}
-
-.nav_bar img{
-  margin: 16px;
-  z-index: 2;
-}
