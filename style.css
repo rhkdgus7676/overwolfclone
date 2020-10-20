@@ -6,6 +6,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 li{
@@ -110,6 +112,10 @@ li{
   background: rgba(0, 0, 0, .01);
 }
 
+.overlay a{
+  text-decoration: underline;
+}
+
 .overlay_left h1,h2,a{
   background: rgba(0, 0, 0, .01);
 }
@@ -123,8 +129,56 @@ li{
   background-size: cover;
 }
 
+/* development */
 
+.development{
+  position: relative;
+}
 
+.development2title{
+  padding-left: 40px;
+  margin-bottom: 70px;
+}
+
+.devleft h1{
+  font-size: 3rem;
+}
+
+.devleft{
+  position:absolute;
+  z-index:1;
+  top: 20%;
+  left: 6%;
+}
+
+.monster{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+
+.appBtn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  margin-top: 10px;
+}
+
+/* app_adv */
+
+.dev21,
+.dev22,
+.dev23{
+  flex: 1;
+  text-align: center;
+}
+
+.development2{
+  display: flex;
+}
+
+/* footer */
 
 .footerimg{
   text-align: center;
@@ -150,31 +204,19 @@ li{
 
 .footermenu{
   color: #b2adcc;
-
 }
 
 .footermenu ul{
-  /* display: table; */
   list-style-type: none;
   padding: 28px;
   margin: 0;
 }
 
-.footermenu a{
-  /* display: block; */
-
-}
 #footermenutoplist{
   display: inline-block;
   padding-left: 53px;
   vertical-align: top;
 }
-
-.footermenu li{
-  /* float: left; */
- /* display: block; */
-}
-
 
 .button1{
  color: #f4f2ff;
@@ -200,7 +242,6 @@ li{
  color: #f4f2ff;
 }
 
-
 .section5left img{
   display: block;
   margin-left: auto;
@@ -223,7 +264,6 @@ li{
   flex: 1.75;
   grid-gap: 2em;
   justify-content: center;
-
 }
 
 .section5{
@@ -231,9 +271,7 @@ li{
   color: white;
   display: flex;
   padding: 20px;
-
 }
-
 
 .article{
   position: absolute;
@@ -314,28 +352,6 @@ li{
   color: white;
 }
 
-
-.development2title{
-  padding-left: 40px;
-  margin-bottom: 70px;
-}
-
-.dev21,
-.dev22,
-.dev23{
-  flex: 1;
-  text-align: center;
-}
-
-.development2{
-  display: flex;
-}
-
-
-.development{
-  position: relative;
-}
-
 .buttons button{
   padding-left: 35px;
   padding-right: 35px;
@@ -350,53 +366,3 @@ li{
 .appstore{
   background-color: transparent;
 }
-
-.devright{
-  position:absolute;
-    z-index:1;
-    bottom: 3%;
-    left: 15%;
-}
-
-.devright img{
-  margin: 25px;
-}
-
-
-.devleft{
-  position:absolute;
-    z-index:1;
-    top: 13%;
-    left: 6%;
-    color: white;
-}
-
-
-
-
-
-/* .development{
-  background-image: url('landscape.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-} */
-
-
-/* 
-.overlay_right{
-  position:absolute;
-    z-index:1;
-    top:20%;
-    right:10%;
-}
-.overlay_left{
-  position:absolute;
-    z-index:1;
-    top:20%;
-    left:5%;
-} */
-
-
-

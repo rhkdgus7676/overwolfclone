@@ -4,158 +4,152 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <LINK REL="SHORTCUT ICON" HREF="E:\cloneoverwolf\img\overwolficon.jpg" />
+  <LINK REL="SHORTCUT ICON" HREF="./img/finger.PNG" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Rubik&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e47a0f9ac9.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="bg_img.js"></script>
   <title>Overwolf | Development of gaming apps made easy</title>
 </head>
 
-  <body>
-    <header>
-      <nav class="nav_bar">
-        <div class="nav_logo">
-         <a href="#"><img src="./img/navlogo.PNG" alt=""></a>
-        </div>
-        <ul class="nav_menu">
-          <li><a href="#">Developers</a></li>
-          <li><a href="#">Gamers</a></li>
-          <li><a href="#">Appstore</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
+<body>
+  <!-- navbar -->
+  <nav class="nav_bar">
+    <div class="nav_logo">
+      <a href="#"><img src="./img/navlogo.PNG" alt=""></a>
+    </div>
 
-        <div class="download_btn">
-          <a href="#">download overwolf</a>
-        </div>
-        
-        <div class="social_icons">
-         <a href=""><i class="fab fa-discord"></i></a> 
-         <a href=""><i class="fab fa-twitter"></i></a> 
-         <a href=""><i class="fab fa-instagram"></i></a> 
-         <a href=""><i class="fab fa-facebook-f"></i></a> 
-         <a href=""><i class="fab fa-youtube"></i></a> 
-        </div>
-        
-      </nav>
+    <ul class="nav_menu">
+      <li><a href="#">Developers</a></li>
+      <li><a href="#">Gamers</a></li>
+      <li><a href="#">Appstore</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Careers</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Support</a></li>
+    </ul>
+
+    <div class="download_btn">
+      <a href="#">download overwolf</a>
+    </div>
+      
+    <div class="social_icons">
+      <a href=""><i class="fab fa-discord"></i></a> 
+      <a href=""><i class="fab fa-twitter"></i></a> 
+      <a href=""><i class="fab fa-instagram"></i></a> 
+      <a href=""><i class="fab fa-facebook-f"></i></a> 
+      <a href=""><i class="fab fa-youtube"></i></a> 
+    </div>      
+  </nav>
     
+  <!-- video contents -->
 
-    <div class="video_container">
+  <div class="video_container">
+    <video class="fire_vid" autoplay src="./vid/fire.mp4" type="video/mp4" loop muted></video>
+    
+    <div class="overlay">
+      <div class="overlay_left">
+        <h1>curseforge</h1>        
+        <h2>welcome to the pack</h2>
+        <a href="#">learn more</a>
+      </div>
 
-      <video class="fire_vid" autoplay src="./vid/fire.mp4" type="video/mp4" loop muted></video>
-      <div class="overlay">
-        <div class="overlay_left">
-            <h1>curseforge</h1>        
-            <h2>welcome to the pack</h2>
-            <a href="#">learn more</a>
-        </div>
-
-        <div class="overlay_right">
-          <img src="./img/app.png">
-        </div>
+      <div class="overlay_right">
+        <img src="./img/app.png">
       </div>
     </div>
-  </header>
+  </div>
 
+  <!-- development -->
 
-<section>
-
-
-      <div class="development">
-        <img class="" src="./img/Starsbg.png" alt="" width="100%">
-        <img src="" alt="">
-        <div class="devleft">
-          <div class="">
-            <h2>Development of gaming<br>appsmade easy</h2>
+  <section>
+    <div class="development">
+      <img class="dev_bg" src="./img/Starsbg.png">
+     
+      <div class="devleft">  
+        <h1>Development of gaming<br>apps made easy</h1>    
+        <p>Overwolf is a tech framework that allows 3rd party developers to<br>easily build gaming apps in HTML and JavaScript</p> 
+        
+        <div class="appBtn">
+          <div id="buildApp">
+            <a href="#">Build an App</a>
           </div>
-
-          <div class="">
-            Overwolf is a tech framework that allows 3rd party developers to<br>easily build gaming apps in HTML and JavaScript
-          </div>
-
-          <div class="buttons">
-            <button type="button" name="button" class="buildapp">Build an App</button>
-            <button type="button" name="button" class="appstore">Browse Appstore</button>
+          
+          <div id="browseApp">
+            <a href="#">Brose Appstore</a>
           </div>
         </div>
+      </div>      
+      <img class="monster" src="./img/monster.svg" alt="">
+    </div>
 
-        <div class="devright">
+    <!-- app adv -->
 
-          <img src="gif\dance1.gif" height="215;" width="200px;">
-          <img src="gif\druid.gif" height="215;" width="200px;">
-          <img src="gif\panda.gif" height="215;" width="200px;">
-          <img src="gif\forthehorde.gif" height="215;" width="200px;">
+    <div class="section2" style="background-color:#161326;">
+      <div class="development2title">
+        <div class="">
+          <h3>Developing a gaming app from scratch is hard</h3>
+        </div>
+        <div class="">
+          <p>This is why we’ve built a framework that provides creators all the <br> tools they need to build apps that benefit gamers. Every app is <br> independent (desktop icon, dedicated installer etc.), the creator <br> has full ownership and development freedom, and Overwolf <br> makes sure it meets the terms of Game Developers. <a href="#">Read more</a></p>
         </div>
       </div>
 
-      <div class="section2" style="background-color:#161326;">
-        <div class="development2title">
-
-          <div class="">
-            <h3>Developing a gaming app from scratch is hard</h3>
-          </div>
-
-          <div class="">
-            <p>This is why we’ve built a framework that provides creators all the <br> tools they need to build apps that benefit gamers. Every app is <br> independent (desktop icon, dedicated installer etc.), the creator <br> has full ownership and development freedom, and Overwolf <br> makes sure it meets the terms of Game Developers. <a href="#">Read more</a></p>
-          </div>
-
+      <div class="development2">
+        <div class="dev21">
+          <img src="gif\킁카킁카.gif" height="100px" width="100px">
+          <h5>Real time game events</h5>
+          <p>Overwolf’s game-event API tracks key <br> game events for top PC games</p>
         </div>
 
-        <div class="development2">
-          <div class="dev21">
-            <img src="gif\킁카킁카.gif" height="100px" width="100px">
-            <h5>Real time game events</h5>
-            <p>Overwolf’s game-event API tracks key <br> game events for top PC games</p>
-          </div>
+        <div class="dev22">
+          <img src="gif\cattired.gif" height="100px" width="100px">
+        <h5>In-game overlays</h5>
+        <p>Build desktop apps with in-game <br> overlays or second screen functionality</p>
+        </div>
 
-          <div class="dev22">
-            <img src="gif\cattired.gif" height="100px" width="100px">
-          <h5>In-game overlays</h5>
-          <p>Build desktop apps with in-game <br> overlays or second screen functionality</p>
-          </div>
-
-          <div class="dev23">
-            <img src="gif\dog.gif" height="100px" width="100px">
+        <div class="dev23">
+          <img src="gif\dog.gif" height="100px" width="100px">
           <h5>Building a business</h5>
           <p>If you want, you can monetize your app or apply for funding from the
           Intel-Overwolf fund. Note that you’d have to meet our guidelines.</p>
-          </div>
-        </div>
-
-        <div class="learnmore" style="text-align:center; ">
-          <button type=" " name="button"><span>Learn more</span></button>
         </div>
       </div>
 
+      <div class="learnmore" style="text-align:center; ">
+        <button type=" " name="button"><span>Learn more</span></button>
+      </div>
+    </div>
 
 
-<div class="section3" style="background-color:#201c33;" width=100%>
 
-  <div class="section3title" style="text-align:center; ">
-    <img src="img\globe.svg" alt="">
-    <h2>Millions use Overwolf apps every day</h2>
+  <div class="section3" style="background-color:#201c33;" width=100%>
+
+    <div class="section3title" style="text-align:center; ">
+      <img src="img\globe.svg" alt="">
+      <h2>Millions use Overwolf apps every day</h2>
+    </div>
+
+
+    <div class="section3article">
+      <div class="section31">
+        <p> +5,500,000 <br>
+          Monthly active gamers</p>
+      </div>
+
+      <div class="section32">
+        <p>+10,000,000 <br>
+           Daily app engagements</p>
+      </div>
+
+      <div class="section33">
+        <p>+180,000,000 <br>
+          Game sessions last month</p>
+      </div>
+    </div>
   </div>
-
-
-  <div class="section3article">
-    <div class="section31">
-      <p> +5,500,000 <br>
-        Monthly active gamers</p>
-    </div>
-
-    <div class="section32">
-      <p>+10,000,000 <br>
-         Daily app engagements</p>
-    </div>
-
-    <div class="section33">
-      <p>+180,000,000 <br>
-        Game sessions last month</p>
-    </div>
-  </div>
-</div>
 
 <div class="section4">
   <h4 style="color:gray;">With great new apps released weekly</h4>
@@ -225,31 +219,31 @@
 
 <div class="section5right">
     <div class="logo">
-      <img src="img\logo.png" alt="">
+      <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
     <div class="logo">
-        <img src="img\logo.png" alt="">
+        <img src="./img/logo.png" alt="">
     </div>
   </div>
 
