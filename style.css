@@ -2,20 +2,20 @@
 *{
   font-family: 'Roboto Condensed', sans-serif;
   color: #b2adcc;
-  background: #161326;
   text-decoration: none;
-}
-
-body{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 li{
   list-style-type: none;
 }
 
+/* navbar */
+
 .nav_bar{
+  background: #161326;
   height: 64px;
   position: fixed;
   width: 100%;
@@ -73,6 +73,58 @@ li{
 .social_icons a{
   padding: 5px;
 }
+
+/* banner */
+
+.overlay h1{
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+.video-container {
+  position: relative;
+  z-index: 99;
+
+}
+
+.fire_vid{
+  width: 100%;
+  height: auto;
+  background: transparent;
+}
+
+.overlay{
+  z-index: 101;
+  width: 100%;
+  top: 39%;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: transparent; */
+  margin: auto;
+}
+
+.overlay{
+  /* background: transparent; */
+  background: rgba(0, 0, 0, .01);
+}
+
+.overlay_left h1,h2,a{
+  background: rgba(0, 0, 0, .01);
+}
+
+.overlay_right{
+  background: rgba(0, 0, 0, .01);
+}
+
+.overlay_right img{
+  background: transparent;
+  background-size: cover;
+}
+
+
+
 
 .footerimg{
   text-align: center;
@@ -331,11 +383,8 @@ li{
   background-size: 100% 100%;
 } */
 
-.overlay img{
-  background-color: yellow;
-  margin: 0;
-}
 
+/* 
 .overlay_right{
   position:absolute;
     z-index:1;
@@ -347,10 +396,7 @@ li{
     z-index:1;
     top:20%;
     left:5%;
-}
+} */
 
-.video-container {
-  position: relative;
-  z-index: 0;
-}
+
 
