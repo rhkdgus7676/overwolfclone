@@ -59,6 +59,7 @@ li{
 .download_btn a{
   padding: 6px 13px ;
   outline: solid thin;
+  transition: .5s;
 }
 
 .download_btn a:hover{
@@ -199,6 +200,39 @@ li{
   color: #201c33;
 }
 
+
+/* digi_data */
+
+.digi_data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  background-color: #201c33;
+  text-align: center;
+}
+
+.digi_data_card_wrapper{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.digi_data_article{
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.digi_data h2{
+  font-size: 39px;
+}
+
+.digi_data h2,strong{
+  color: #f4f2ff;
+}
+
 /* footer */
 
 .footerimg{
@@ -336,30 +370,7 @@ li{
   text-align: center;
 }
 
-.section3title h2{
-  padding: 30px;
-}
 
-.section31,
-.section32,
-.section33{
-  flex:1;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.section3article{
-  display: flex;
-}
-
-/* .section3title{
-  display: block;
-} */
-
-.section3{
-  color: white;
-  text-align: center;
-}
 
 .learnmore button{
   background-color:transparent;
