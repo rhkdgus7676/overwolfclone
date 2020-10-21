@@ -44,7 +44,6 @@ li{
 
 .nav_menu a:hover{
   color: #f4f2ff;
-  
 }
 
 .nav_menu li{
@@ -135,11 +134,6 @@ li{
   position: relative;
 }
 
-.development2title{
-  padding-left: 40px;
-  margin-bottom: 70px;
-}
-
 .devleft h1{
   font-size: 3rem;
 }
@@ -167,15 +161,42 @@ li{
 
 /* app_adv */
 
-.dev21,
-.dev22,
-.dev23{
-  flex: 1;
+.app_adv{
+  background-color:#161326;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.app_adv h2{
+  font-size: 2.5rem;
+}
+
+.app_adv_article{
+  padding-left: 20px;
+}
+
+.app_adv_card_wrapper{
+  display: flex;
+  justify-content: space-around;
   text-align: center;
 }
 
-.development2{
+.app_adv_learnmore{
   display: flex;
+  justify-content: center;
+}
+
+.app_adv_learnmore a{
+  padding: 20px 50px;
+  outline: solid 2px;
+  transition: .5s;
+}
+
+.app_adv_learnmore a:hover{
+  background-color: #f4f2ff;
+  color: #201c33;
 }
 
 /* footer */
